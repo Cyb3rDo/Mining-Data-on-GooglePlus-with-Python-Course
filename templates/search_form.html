@@ -1,0 +1,18 @@
+<!-- Source Code for Mining data on Google+ with Python Course by TigerStyle Code Academy -->
+
+<!DOCTYPE html>
+<html>
+	<body>
+	
+		{% if message %}
+		<p>{{ message }}</p>
+		{% endif %}
+
+		<form action="/search" method="post">
+			Search for:
+			<input type="text" name="query" />
+			<input type="submit" name="submit" value="Search!" />
+		</form>
+
+	</body>
+</html>
